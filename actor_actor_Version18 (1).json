@@ -1,0 +1,17 @@
+{
+    "actorSpecification": 1,
+    "name": "Coworking Space Pricing scraper",
+    "title": "Coworking Space Pricing scraper",
+    "description": "Scraper that collects coworking space pricing plans, prices, features and related metadata from public pricing pages.",
+    "version": "0.0",
+    "meta": {
+        "templateId": "ai-generated-actor",
+        "generatedBy": "Gpt-4o-mini"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "dockerfile": "../Dockerfile"
+}

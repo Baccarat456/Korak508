@@ -1,0 +1,24 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": ["space_name", "plan_name", "price", "currency", "billing_cycle", "features", "url"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "space_name": { "label": "Space", "format": "text" },
+                    "plan_name": { "label": "Plan", "format": "text" },
+                    "price": { "label": "Price", "format": "text" },
+                    "currency": { "label": "Currency", "format": "text" },
+                    "billing_cycle": { "label": "Billing cycle", "format": "text" },
+                    "features": { "label": "Features", "format": "text" },
+                    "url": { "label": "URL", "format": "link" }
+                }
+            }
+        }
+    }
+}
